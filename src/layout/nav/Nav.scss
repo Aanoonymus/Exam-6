@@ -1,0 +1,33 @@
+$inter-font: "Inter", sans-serif;
+
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #000;
+  padding: 15px 125px 15px 85px;
+  justify-content: space-between;
+
+  .navbar-logo {
+    width: 70px;
+    height: 60px;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+    .nav-list-item {
+      list-style-type: none;
+
+      a {
+        color: #fff;
+        font-family: $inter-font;
+        font-weight: 400;
+        text-decoration: none;
+      }
+    }
+  }
+}

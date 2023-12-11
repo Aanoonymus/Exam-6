@@ -1,0 +1,83 @@
+.hero {
+  background-image: url(../../assets/hero-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  height: 415px;
+  margin-bottom: 40px;
+}
+
+.home-title {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 400;
+  margin-left: 85px;
+}
+
+.loading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 85px;
+  margin: auto;
+}
+
+.home-cards-wrapper {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+  padding: 35px 0 50px 85px;
+  width: 100%;
+  overflow-y: scroll;
+
+  .home-card {
+    height: 335px;
+    padding: 5px 5px 10px 5px;
+    border: 3px solid #f0de36;
+    background: #1e1e1e;
+    text-decoration: none;
+    position: relative;
+    max-width: 280px;
+    width: 100%;
+
+    .home-card-image {
+      width: 265px;
+      height: 170px;
+    }
+
+    .home-card-title {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .home-card-description {
+      color: #fff;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .user-info {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: absolute;
+      bottom: 5px;
+
+      .user-info-name {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+      .sidebar-author {
+        color: #787878;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}
